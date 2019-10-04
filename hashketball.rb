@@ -207,7 +207,9 @@ win_team =' '
   game_hash.each do |team,team_info}
   team_points =0 
   team_name = game_hash[team][:team_name]
-  
+    team_info[:players].each do |player|
+    
+    end
   
   end
 
