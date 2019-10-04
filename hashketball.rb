@@ -125,7 +125,7 @@ def shoe_size(name)
 
 end
 
-def team_color(name)
+def team_colors(name)
   if name.downcase == "Brooklyn Nets"
     return game_hash[:home][:colors]
   else 
