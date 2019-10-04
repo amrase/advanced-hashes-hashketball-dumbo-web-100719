@@ -126,7 +126,9 @@ def shoe_size(name)
 end
 
 def team_color(name)
-
+  if name.downcase == "Brooklyn Nets"
+    
+  end
 
 end
   
