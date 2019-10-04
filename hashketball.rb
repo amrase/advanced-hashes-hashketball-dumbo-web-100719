@@ -102,7 +102,7 @@ def game_hash
   }
 end
 
-def num_points
+def num_points_scored(players)
   
 end
 
