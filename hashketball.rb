@@ -177,6 +177,10 @@ def big_shoe_rebounds
 big_shoe =0 
 rebounds =0 
 
+game_hash.each do |team,team_info|
+  
+end
+
 
 
 end
