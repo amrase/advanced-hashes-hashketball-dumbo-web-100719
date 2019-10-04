@@ -202,6 +202,7 @@ end
 end
   
 def winning_team
+total_points = 0 
 
 
 
