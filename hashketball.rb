@@ -115,7 +115,8 @@ end
 
 
 def shoe_size(player)
-
+  game_hash.each do |team,team_info|
+  end
 
 end
 
