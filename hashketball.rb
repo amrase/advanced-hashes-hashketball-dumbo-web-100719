@@ -141,8 +141,9 @@ end
 
 
 
-def player_number
+def player_number(input)
   output=[]
+  game_hash.
   
 
 
