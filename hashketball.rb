@@ -173,7 +173,8 @@ def player_stats(input)
 end
 
 
-def big_shoe_rebound
+def big_shoe_rebounds
+big_shoe =0 
 
 
 
