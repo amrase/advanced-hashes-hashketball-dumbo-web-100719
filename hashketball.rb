@@ -232,8 +232,8 @@ end
 
 
 def long_name_steals_a_ton
-   steals=''
-   steals_most=0
+   steals=0 
+   steals_most=''
   
 
 
