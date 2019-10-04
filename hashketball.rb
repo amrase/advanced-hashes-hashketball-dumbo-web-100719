@@ -227,5 +227,5 @@ def player_with_longest_name
         longest, longest_length = player[:player_name], name_length if name_length > longest_length
       end
     end
-    
+    return longest
 end
