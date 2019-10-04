@@ -181,8 +181,8 @@ game_hash.each do |team,team_info|
   team_info[:player].each do |player|
   if player[:shoe] >big_shoe
      big_shoe = player[:shoe]
-     
-  
+     rebounds = player[:rebounds]
+  end
   end
 end
 
