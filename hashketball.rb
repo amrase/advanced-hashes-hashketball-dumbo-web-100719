@@ -196,8 +196,9 @@ def most_points_scored
         most_points = points
         mvp = player[:player_name]
     end
-  end  
-
+  end 
+  return mvp
+end
   
 
 
