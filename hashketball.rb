@@ -142,7 +142,8 @@ end
 
 
 def player_number
-
+  output=[]
+  
 
 
 end
