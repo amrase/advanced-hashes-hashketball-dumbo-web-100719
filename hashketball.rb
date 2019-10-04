@@ -1,10 +1,11 @@
 # Write your code here!
 def game_hash
-  { away:{
-    
-    },
-    home:{
+  {
+    home:{ team_name:
       
+    },
+    away:{
+    
     }
     
   }
