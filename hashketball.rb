@@ -108,7 +108,7 @@ def num_points_scored(player_s)
       if player[:player_name] == player_s
           return player[:points]
       end
-
+    end
   end
 end
 
