@@ -127,8 +127,9 @@ end
 
 def team_color(name)
   if name.downcase == "Brooklyn Nets"
-    
-  end
+    game_hash[:home][:colors]
+  else 
+    game_hash[:away][:colors]
 
 end
   
