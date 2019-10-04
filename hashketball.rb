@@ -178,7 +178,10 @@ big_shoe =0
 rebounds =0 
 
 game_hash.each do |team,team_info|
+  team_info[:player].each do |player|
   
+  
+  end
 end
 
 
