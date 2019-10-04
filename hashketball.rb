@@ -169,7 +169,6 @@ def player_stats(input)
       end
     end
   end
-  return output
 end
 
   
