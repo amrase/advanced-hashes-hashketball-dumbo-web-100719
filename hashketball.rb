@@ -157,6 +157,21 @@ def player_numbers(input)
   return output
 end
 
+def player_stats(input)
+  game_hash.each do |team, team_info|
+    if team_info[:team_name] == input 
+      team_info.each do |key, value|
+        if key == :players
+          value.each do |player|
+          output.push(player[:number])
+          end
+        end
+      end
+    end
+  end
+  return output
+end
+
   
 
 
