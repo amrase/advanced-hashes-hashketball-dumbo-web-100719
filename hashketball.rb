@@ -208,7 +208,9 @@ win_team =' '
   team_points =0 
   team_name = game_hash[team][:team_name]
     team_info[:players].each do |player|
-    
+      points = player[:points]
+      
+      total_points += points
     end
   
   end
