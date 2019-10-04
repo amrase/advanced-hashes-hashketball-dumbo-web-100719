@@ -145,7 +145,11 @@ def player_number(input)
   output=[]
   game_hash.each do |team,team_info|
     if team_info[:team_name] == input
-      team_info.each do
+      team_info.each do |key ,value|
+      if  
+      
+      end
+      end
     end
   
   end
