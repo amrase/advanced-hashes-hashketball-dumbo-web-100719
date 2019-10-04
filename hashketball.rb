@@ -212,7 +212,7 @@ win_team =' '
       
       total_points += points
     end
-    win_team
+    win_team,total_points
   end
 
 
